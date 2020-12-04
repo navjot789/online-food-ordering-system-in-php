@@ -12,6 +12,12 @@ This project is about ordering online food from your local restaurants. Anybody 
 
 If you don't know, how to setup this project on your localhost then watch this youtube video: [https://youtu.be/aBiIgUhe0Jk](https://youtu.be/aBiIgUhe0Jk)
 
+## Admin Dashboard
+
+To access admin portal type this in your URL BAR **\`root**/admin/ \`  where **root** is your root directory
+
+ **Admin credentials:** Username: **admin** Password: **1234**
+
 ## Technologies Used
 
 1. PHP
