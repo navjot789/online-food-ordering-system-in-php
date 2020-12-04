@@ -2,7 +2,11 @@
 
 ## About this project?
 
-This project is about ordering online food from your local restaurants. Anybody can create an account and order online. you are free to to use this project for college or school purposes. Please note that this project is not made for business or commercial perposes.
+This project is about ordering online food from your local restaurants. Anybody can create an account and order online. you are free to to use this project for college or school purposes. Please note that this project is not made for business or commercial purposes.
+
+![Front view](.gitbook/assets/1.png)
+
+![Backend view](.gitbook/assets/2.png)
 
 ## Installation or Demo
 
