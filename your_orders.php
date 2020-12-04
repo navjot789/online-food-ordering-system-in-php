@@ -159,7 +159,7 @@ only screen and (max-width: 760px),
 	</head>
 
 <body>
-    <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+    
         <!--header starts-->
         <header id="header" class="header-scroll top-header headrom">
             <!-- .navbar -->
@@ -476,8 +476,7 @@ only screen and (max-width: 760px),
             </footer>
             <!-- end:Footer -->
         </div>
-    </div>
-    <!--/end:Site wrapper -->
+  
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>

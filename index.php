@@ -24,14 +24,14 @@ session_start(); //start temp session until logout/browser closed
     <link href="css/style.css" rel="stylesheet"> </head>
 
 <body class="home">
-    <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+    
         <!--header starts-->
         <header id="header" class="header-scroll top-header headrom">
             <!-- .navbar -->
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -418,8 +418,7 @@ session_start(); //start temp session until logout/browser closed
             </div>
         </footer>
         <!-- end:Footer -->
-    </div>
-    <!--/end:Site wrapper -->
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>

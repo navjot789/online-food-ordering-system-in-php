@@ -1,0 +1,122 @@
+/* The version of Bourbon used in this Pen was 4.* */
+@import "bourbon"
+
+$white: #FFFFFF
+$black: #000000
+$accent: #EF3B3A
+
+$form-width: 300px
+  
+/* Form */
+.form
+  position: relative
+  z-index: 1
+  background: $white
+  max-width: $form-width
+  margin: 0 auto 100px
+  padding: 30px
+  +border-top-radius(3px)
+  +border-bottom-radius(3px)
+  text-align: center
+  .thumbnail
+    background: $accent
+    width: 150px
+    height: 150px
+    margin: 0 auto 30px
+    padding: 50px 30px
+    +border-top-radius(100%)
+    +border-bottom-radius(100%)
+    +box-sizing(border-box)
+    img
+      display: block
+      width: 100%
+  input
+    outline: 0
+    background: darken($white, 5%)
+    width: 100%
+    border: 0
+    margin: 0 0 15px
+    padding: 15px
+    +border-top-radius(3px)
+    +border-bottom-radius(3px)
+    +box-sizing(border-box)
+    font-size: 14px
+  button
+    outline: 0
+    background: $accent
+    width: 100%
+    border: 0
+    padding: 15px
+    +border-top-radius(3px)
+    +border-bottom-radius(3px)
+    color: $white
+    font-size: 14px
+    +transition(all .3 ease)
+    cursor: pointer
+  .message
+    margin: 15px 0 0
+    color: darken($white, 30%)
+    font-size: 12px
+    a
+      color: $accent
+      text-decoration: none
+  .register-form
+    display: none
+    
+    
+.container
+  position: relative
+  z-index: 1
+  max-width: $form-width
+  margin: 0 auto
+  &:before,
+  &:after
+    content: ''
+    display: block
+    clear: both
+  .info
+    margin: 50px auto
+    text-align: center
+    h1
+      margin: 0 0 15px
+      padding: 0
+      font-size: 36px
+      font-weight: 300
+      color: lighten($black, 10%)
+    span
+      color: lighten($black, 30%)
+      font-size: 12px
+      a
+        color: $black
+        text-decoration: none
+      .fa
+        color: $accent
+/* END Form */
+        
+/* Demo Purposes */
+body
+  background: #ccc
+  font-family: 'Roboto', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  &:before
+    content: ''
+    position: fixed
+    top: 0
+    left: 0
+    display: block
+    background: rgba($white, .8)
+    width: 100%
+    height: 100%
+#video
+  z-index: -99
+  position: fixed
+  top: 50%
+  left: 50%
+  min-width: 100%
+  min-height: 100%
+  width: auto
+  height: auto
+  -webkit-transform: translateX(-50%) translateY(-50%)
+  -moz-transform: translateX(-50%) translateY(-50%)
+  transform: translateX(-50%) translateY(-50%)
