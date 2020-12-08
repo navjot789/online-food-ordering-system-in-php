@@ -50,7 +50,7 @@ else{
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet"> </head>
 <body>
-     <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+    
     <div class="site-wrapper">
         <!--header starts-->
         <header id="header" class="header-scroll top-header headrom">
@@ -293,8 +293,7 @@ else{
         </div>
         <!-- end:page wrapper -->
          </div>
-    </div>
-    <!--/end:Site wrapper -->
+
      <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
